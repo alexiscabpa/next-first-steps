@@ -1,0 +1,17 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata={
+    title: 'About Page',
+    description: 'La pagina mas vyresa',
+    keywords: ['About page','Ferdinand','informacion','....']
+};
+
+
+export default function AboutPage(){
+    return (
+        
+        <>
+        <span className="text-7xl">About Page</span>
+        </>
+    )
+}
